@@ -59,8 +59,6 @@ mvn test
 
 ## Author
 
-## Author
-
 [**Santiago Rubiano Fierro**](https://github.com/srubianof) Software Engineering Student
 
 ## License
