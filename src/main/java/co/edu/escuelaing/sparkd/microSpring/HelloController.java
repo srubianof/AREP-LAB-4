@@ -8,20 +8,21 @@ public class HelloController {
 
     @RequestMapping("/pi")
     public static String pi() {
-        return "Number PI: "+Math.PI;
+        return "Number PI: " + Math.PI;
     }
 
     @RequestMapping("/pagina")
     public static String pagina() {
         return "<!DOCTYPE html>\n" +
-                "<html lang=\"en\">\n" +
-                "<head>\n" +
-                "    <meta charset=\"UTF-8\">\n" +
-                "    <title>Title</title>\n" +
-                "</head>\n" +
-                "<body>\n" +
-                "\n" +
-                "</body>\n" +
-                "</html>";
+                "<html>\n"
+                + "<head>\n"
+                + "<meta charset=\"UTF-8\">\n"
+                + "<title>Title of the document</title>\n"
+                + "</head>\n"
+                + "<body>\n"
+                + "<h1>Valor de Euler</h1>\n"
+                + "<p>" + Math.E + "</p"
+                + "</body>\n"
+                + "</html>\n";
     }
 }
